@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signing_Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./SIGNING.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="signin-singup">
+            <form action="#" method="post" class="sign-in-form">
+                <h2 class="title">Sign In</h2>
+
+                <div class="error-contain">
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Username" id="username">
+                    </div>
+                    <p class="error"></p>
+                </div>
+
+                <div class="error-contain">
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password" id="password">
+                    </div>
+                    <p class="error"></p>
+                </div>
+
+                <input type="submit" value="LOGIN" class="btn">
+
+                <p class="social-text">Or Sign In with Social Platforms</p>
+
+                <div class="social-media">
+                    <a href="" class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" class="social-icon">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="" class="social-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <p class="account-text">Don't have an account? <a href="#" id="sign-up-btn2">SIGN UP</a></p>
+            </form>
+
+            <form action="#" method="post" class="sign-up-form">
+                <h2 class="title">Sign Up</h2>
+
+                <div class="error-contain">
+                    <div class="input-field">
+                        <i class="fas fa-envelope"></i>
+                        <input type="text" placeholder="Email" id="Email">
+                    </div>
+                    <p class="error"></p>
+                </div>
+
+                <div class="error-contain">
+                    <div class="input-field">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Username" id="siUsername">
+                    </div>
+                    <p class="error"></p>
+                </div>
+
+                <div class="error-contain">
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" placeholder="Password" id="siPassword">
+                    </div>
+                    <p class="error"></p>
+                </div>
+
+                <input type="submit" value="SIGN UP" class="btn">
+
+                <p class="social-text">Or Sign In with Social Platforms</p>
+
+                <div class="social-media">
+                    <a href="" class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" class="social-icon">
+                        <i class="fab fa-google"></i>
+                    </a>
+                    <a href="" class="social-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <p class="account-text">Already have an account? <a href="#" id="sign-in-btn2">SIGN IN</a></p>
+            </form>
+        </div>
+
+        <div class="panels-container">
+
+            <div class="panel left-panel">
+                <div class="content">
+                    <h3>MEMBER OF BRAND?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat tempora vitae consequuntur
+                        saepe unde expedita.</p>
+                    <button class="btn" id="sign-in-btn">SIGN IN</button>
+                </div>
+                <img src="./IMAGES/signin.svg" alt="" class="image">
+            </div>
+
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>NEW TO BRAND?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat tempora vitae consequuntur
+                        saepe unde expedita.</p>
+                    <button class="btn" id="sign-up-btn">SIGN UP</button>
+                </div>
+                <img src="./IMAGES/signup.svg" alt="" class="image">
+            </div>
+        </div>
+    </div>
+
+<script src="./SIGNING.js"></script>
+</body>
+
+</html>
